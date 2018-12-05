@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Personal Portfolio Webpage</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+		</script>
+		<link rel="stylesheet" href="css/style.css">
+		  
+	</head>
+
+	<body>
+		<body >
+		<script type="module" src="films.js"></script>
+		<nav id="navbar">
+			<ul>
+				<li><a href="#welcome-section">About</a></li>
+				<li><a href="#projects">Work</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<div id="welcome-section">
+			<h1>Megan Nelson</h1>
+			<p>a web developer's portfolio</p>
+			</div>
+    
+			<section id="projects">
+				<h2 class="work">These are some of my projects</h2>
+				<section id="project-links">
+					<a href="https://freecodecamp.org" target="_blank" class="project-tile">
+					<img class="project-pic" src="https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg" alt="project">
+					<div class="project-title">freeCodeCamp</div>
+					</a>
+		  
+					<a href="https://github.com/" target="_blank" class="project-tile">
+						<img class="project-pic" src="https://pbs.twimg.com/profile_images/1017516299143041024/fLFdcGsl_400x400.jpg" alt="project">
+						<div class="project-title">GitHub</div>
+					</a>
+		  
+					<a href="https://www.netlify.com/" target="_blank" class="project-tile">
+						<img class="project-pic" src="https://pbs.twimg.com/profile_images/1021778918842531840/FBVP_uDf_400x400.jpg" alt="project">
+						<div class="project-title">Netlify</div>
+					</a>
+				</section>
+			</section>			
+			<section id="contact" class="contact">
+				<h3>Contact Information</h3>
+				<a href="https://facebook.com" target="_blank" class="contact-details" >Facebook</a>
+				<a id="profile-link" href="https://github.com" target="_blank" class="contact-details">GitHub</a>
+				<a href="https://twitter.com" target="_blank" class="contact-details">Twitter</a>
+				<a href="mailto:example@example.com" class="contact-details">Email</a>
+			</section>    
+			
+			<!-- here goes the adding details to HTML -->
+			<section id="starWarData" class="starwars">
+			<h4>Starships Information</h4>
+			  
+			<br><!-- here goes the adding details of starships details in a table -->
+			<div style="overflow-x:auto;">
+				<table id="starwarsTable" > </table>
+			</div>
+			<br></br>
+			<h4>Species Information</h4>
+	  
+			<br><!-- here goes the adding details of species details in a table -->
+			<div style="overflow-x:auto;">
+				<table id="speciesTable" width="10px"> </table>
+			</div>
+	
+			</section>  		
+			<section id="starWarData" class="starwarsPortion">
+				<h5>Starships in a Specific Portion of Information</h5>
+				  
+				<br><!-- here goes the adding details of a portion of starships details in a table -->
+				<div style="overflow-x:auto;" id="StarshipsPort">
+					<table id="starwarsTable2" > </table>
+				</div>
+				<br></br>
+				<h5>Species in a Specific portion of Information</h5>
+				  
+				<br><!-- here goes the adding details of a portion of species details in a table -->
+				<div style="overflow-x:auto;" id="SpeciesPort">
+					<table id="speciesTable2" width="10px"> </table>
+				</div>	
+			</section>	
+   
+		</main> 
+		<footer>
+			<p>This is a fake portfolio for educational purposes.</p>
+		</body>
+	</body>
+</html>
